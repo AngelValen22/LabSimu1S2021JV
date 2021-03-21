@@ -21,7 +21,7 @@ int main(){
 	//Se iguala x a  min y max para comparar el valor de cada uno mas adelante.
         max=x;
         min=x;
-	// ciclo el cual nos ayudara a ingresar los valores de altura mientras no se ingrese un valor de altuta negativo
+	// ciclo el cual nos ayudara a ingresar los valores de altura mientras no se ingrese un valor de altura negativo
         while  (x>=0){
 		// Contador de valores de altura ingresados
                 n++;
