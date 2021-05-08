@@ -19,12 +19,21 @@ void llenar();
 void ordenA();
 int par[9];
 int copia;
+int b=0;
+char mh;
 int main() {
 	llenar() ;
 	printf("\n");
-	ordenA();
-	printf("\n");
-	ordenD();
+	while (n=0){
+	if (mh=='a') {
+		ordenA();
+		n++;
+		}
+	if (mh=='d'){
+		ordenD();
+		n++;
+		}
+	}
 	return 0;
 }
 
